@@ -32,14 +32,25 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav m-auto">
-            <a class="nav-item nav-link active text-uppercase" href="#">home <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link text-uppercase" href="#">about</a>
-            <a class="nav-item nav-link text-uppercase" href="#">travel</a>
-            <a class="nav-item nav-link text-uppercase" href="#">food</a>
-            <a class="nav-item nav-link text-uppercase" href="#">adventure</a>
-            <a class="nav-item nav-link text-uppercase" href="#">contact</a>
-          </div>
+          <ul class="navbar-nav m-auto">
+
+            <li class="nav-item"><a class="nav-item nav-link active text-uppercase" href="#">home <span class="sr-only">(current)</span></a></li>
+            <li class="nav-item"><a class="nav-link text-uppercase" href="#">about</a></li>
+            <li class="nav-item dropdown"><a class="nav-link text-uppercase dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">categories</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Adventure</a>
+              <a class="dropdown-item" href="#">Beauty</a>
+              <a class="dropdown-item" href="#">Design</a>
+              <a class="dropdown-item" href="#">Diy</a>
+              <a class="dropdown-item" href="#">Food</a>
+              <a class="dropdown-item" href="#">Health</a>
+              <a class="dropdown-item" href="#">Hobbies</a>
+              <a class="dropdown-item" href="#">Lifestyle</a>
+              <a class="dropdown-item" href="#">Motivation</a>
+              <a class="dropdown-item" href="#">Travel</a>
+            </div></li>
+            <li class="nav-item"><a class="nav-link text-uppercase" href="#">contact</a></li>
+          </ul>
         </div>
       </nav>
     </header>
@@ -48,7 +59,11 @@
       <div class="row p-3-md">
         <article class="col-12 col-md-6 mb-3">
           <div class="card small">
-            <img class="card-img-top" src="https://images.unsplash.com/photo-1572510176982-e9b0dac331d2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1347&q=80" alt="">
+            <picture class="card-img-top">
+              <source srcset="img/mobile/1-mobile.jpg" media="(max-width: 400px)">
+              <source srcset="img/normal-post/1.jpg">
+              <img class="card-img-top" src="img/normal-post/1.jpg" alt="halloween">
+            </picture>
             <div class="card-body">
               <div class="card-subtitle text-muted">
                 <span>Author Name </span>
@@ -61,19 +76,23 @@
               <h5 class="card-title pt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h5>
             </div>
             <footer class="card-footer">
-              <a href="#" class="btn btn-dark btn-sm text-light mb-1">halloween</a>
               <a href="#" class="btn btn-dark btn-sm text-light mb-1">food</a>
-              <a href="#" class="btn btn-dark btn-sm text-light mb-1">autumn</a>
-              <a href="#" class="btn btn-dark btn-sm text-light mb-1">travel</a>
-              <a href="#" class="btn btn-dark btn-sm text-light mb-1">orange</a>
-              <a href="#" class="btn btn-dark btn-sm text-light mb-1">nature</a>
+              <a href="#" class="btn btn-dark btn-sm text-light mb-1">design</a>
               <a href="#" class="btn btn-dark btn-sm text-light mb-1">diy</a>
+              <a href="#" class="btn btn-dark btn-sm text-light mb-1">lifestyle</a>
+              <a href="#" class="btn btn-dark btn-sm text-light mb-1">hobbies</a>
+              <a href="#" class="btn btn-dark btn-sm text-light mb-1">design</a>
+              <a href="#" class="btn btn-dark btn-sm text-light mb-1">beauty</a>
             </footer>
           </div>
         </article>
         <article class="col-12 col-md-6 mb-3">
           <div class="card small">
-            <img class="card-img-top" src="https://images.unsplash.com/photo-1572603435301-cd080c6e4b87?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1344&q=80" alt="">
+            <picture class="card-img-top">
+              <source srcset="img/mobile/2-mobile.jpg" media="(max-width: 400px)">
+              <source srcset="img/normal-post/2.jpg">
+              <img class="card-img-top" src="img/normal-post/2.jpg" alt="girl blue hair">
+            </picture>
             <div class="card-body">
               <div class="card-subtitle text-muted">
                 <span>Author Name </span>
@@ -87,12 +106,12 @@
             </div>
             <footer class="card-footer">
               <a href="#" class="btn btn-dark btn-sm text-light mb-1">beauty</a>
+              <a href="#" class="btn btn-dark btn-sm text-light mb-1">diy</a>
+              <a href="#" class="btn btn-dark btn-sm text-light mb-1">motivation</a>
               <a href="#" class="btn btn-dark btn-sm text-light mb-1">health</a>
-              <a href="#" class="btn btn-dark btn-sm text-light mb-1">human</a>
-              <a href="#" class="btn btn-dark btn-sm text-light mb-1">advice</a>
-              <a href="#" class="btn btn-dark btn-sm text-light mb-1">smoothie</a>
-              <a href="#" class="btn btn-dark btn-sm text-light mb-1">hair</a>
-              <a href="#" class="btn btn-dark btn-sm text-light mb-1">makeup</a>
+              <a href="#" class="btn btn-dark btn-sm text-light mb-1">lifestyle</a>
+              <a href="#" class="btn btn-dark btn-sm text-light mb-1">hobbies</a>
+              <a href="#" class="btn btn-dark btn-sm text-light mb-1">design</a>
             </footer>
           </div>
         </article>
@@ -100,7 +119,11 @@
       <div class="row p-3-md">
         <article class="col-12 mb-3">
           <div class="card small">
-            <img class="card-img-top" src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt="">
+            <picture class="card-img-top">
+              <source srcset="img/mobile/3-mobile.jpg" media="(max-width: 400px)">
+              <source srcset="img/important-post/3-big.jpg">
+              <img class="card-img-top" src="img/important-post/3-big.jpg" alt="healthy dinner">
+            </picture>
             <div class="card-body">
               <div class="card-subtitle text-muted">
                 <span>Author Name </span>
@@ -113,11 +136,10 @@
               <h5 class="card-title pt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h5>
             </div>
             <footer class="card-footer">
-              <a href="#" class="btn btn-dark btn-sm text-light mb-1">cooking</a>
+              <a href="#" class="btn btn-dark btn-sm text-light mb-1">health</a>
               <a href="#" class="btn btn-dark btn-sm text-light mb-1">food</a>
-              <a href="#" class="btn btn-dark btn-sm text-light mb-1">family-lunch</a>
-              <a href="#" class="btn btn-dark btn-sm text-light mb-1">recipie</a>
-              <a href="#" class="btn btn-dark btn-sm text-light mb-1">healthy</a>
+              <a href="#" class="btn btn-dark btn-sm text-light mb-1">hobbies</a>
+              <a href="#" class="btn btn-dark btn-sm text-light mb-1">lifestyle</a>
             </footer>
           </div>
         </article>
@@ -125,7 +147,11 @@
       <div class="row p-3-md">
         <article class="col-12 col-md-6 mb-3">
           <div class="card small">
-            <img class="card-img-top" src="https://images.unsplash.com/photo-1558981001-792f6c0d5068?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt="">
+            <picture class="card-img-top">
+              <source srcset="img/mobile/4-mobile.jpg" media="(max-width: 400px)">
+              <source srcset="img/normal-post/4.jpg">
+              <img class="card-img-top" src="img/normal-post/4.jpg" alt="bike in sunset">
+            </picture>
             <div class="card-body">
               <div class="card-subtitle text-muted">
                 <span>Author Name </span>
@@ -140,14 +166,19 @@
             <footer class="card-footer">
               <a href="#" class="btn btn-dark btn-sm text-light mb-1">travel</a>
               <a href="#" class="btn btn-dark btn-sm text-light mb-1">adventure</a>
-              <a href="#" class="btn btn-dark btn-sm text-light mb-1">nature</a>
-              <a href="#" class="btn btn-dark btn-sm text-light mb-1">advice</a>
+              <a href="#" class="btn btn-dark btn-sm text-light mb-1">lifestyle</a>
+              <a href="#" class="btn btn-dark btn-sm text-light mb-1">motivation</a>
+              <a href="#" class="btn btn-dark btn-sm text-light mb-1">hobbies</a>
             </footer>
           </div>
         </article>
         <article class="col-12 col-md-6 mb-3">
           <div class="card small">
-            <img class="card-img-top" src="https://images.unsplash.com/photo-1572542624123-be8c253bf995?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80" alt="">
+            <picture class="card-img-top">
+              <source srcset="img/mobile/5-mobile.jpg" media="(max-width: 400px)">
+              <source srcset="img/normal-post/5.jpg">
+              <img class="card-img-top" src="img/normal-post/5.jpg" alt="landscape">
+            </picture>
             <div class="card-body">
               <div class="card-subtitle text-muted">
                 <span>Author Name </span>
@@ -161,9 +192,10 @@
             </div>
             <footer class="card-footer">
               <a href="#" class="btn btn-dark btn-sm text-light mb-1">travel</a>
-              <a href="#" class="btn btn-dark btn-sm text-light mb-1">nature</a>
-              <a href="#" class="btn btn-dark btn-sm text-light mb-1">green</a>
-              <a href="#" class="btn btn-dark btn-sm text-light mb-1">sea</a>
+              <a href="#" class="btn btn-dark btn-sm text-light mb-1">adventure</a>
+              <a href="#" class="btn btn-dark btn-sm text-light mb-1">lifestyle</a>
+              <a href="#" class="btn btn-dark btn-sm text-light mb-1">motivation</a>
+              <a href="#" class="btn btn-dark btn-sm text-light mb-1">hobbies</a>
             </footer>
           </div>
         </article>
@@ -171,7 +203,11 @@
       <div class="row p-3-md">
         <article class="col-12 col-md-6 mb-3">
           <div class="card small">
-            <img class="card-img-top" src="https://images.unsplash.com/photo-1489278353717-f64c6ee8a4d2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt="">
+            <picture class="card-img-top">
+              <source srcset="img/mobile/6-mobile.jpg" media="(max-width: 400px)">
+              <source srcset="img/normal-post/6.jpg">
+              <img class="card-img-top" src="img/normal-post/6.jpg" alt="girl smiling">
+            </picture>
             <div class="card-body">
               <div class="card-subtitle text-muted">
                 <span>Author Name </span>
@@ -186,14 +222,18 @@
             <footer class="card-footer">
               <a href="#" class="btn btn-dark btn-sm text-light mb-1">motivation</a>
               <a href="#" class="btn btn-dark btn-sm text-light mb-1">lifestyle</a>
-              <a href="#" class="btn btn-dark btn-sm text-light mb-1">happiness</a>
-              <a href="#" class="btn btn-dark btn-sm text-light mb-1">life</a>
+              <a href="#" class="btn btn-dark btn-sm text-light mb-1">beauty</a>
+              <a href="#" class="btn btn-dark btn-sm text-light mb-1">health</a>
             </footer>
           </div>
         </article>
         <article class="col-12 col-md-6 mb-3">
           <div class="card small">
-            <img class="card-img-top" src="https://images.unsplash.com/photo-1543573852-1a71a6ce19bc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt="">
+            <picture class="card-img-top">
+              <source srcset="img/mobile/7-mobile.jpg" media="(max-width: 400px)">
+              <source srcset="img/normal-post/7.jpg">
+              <img class="card-img-top" src="img/normal-post/7.jpg" alt="healthy smoothie">
+            </picture>
             <div class="card-body">
               <div class="card-subtitle text-muted">
                 <span>Author Name </span>
@@ -207,10 +247,9 @@
             </div>
             <footer class="card-footer">
               <a href="#" class="btn btn-dark btn-sm text-light mb-1">food</a>
-              <a href="#" class="btn btn-dark btn-sm text-light mb-1">berrries</a>
-              <a href="#" class="btn btn-dark btn-sm text-light mb-1">icecream</a>
-              <a href="#" class="btn btn-dark btn-sm text-light mb-1">healthy</a>
-              <a href="#" class="btn btn-dark btn-sm text-light mb-1">recipie</a>
+              <a href="#" class="btn btn-dark btn-sm text-light mb-1">diy</a>
+              <a href="#" class="btn btn-dark btn-sm text-light mb-1">health</a>
+              <a href="#" class="btn btn-dark btn-sm text-light mb-1">lifestyle</a>
             </footer>
           </div>
         </article>
